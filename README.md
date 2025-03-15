@@ -1,49 +1,77 @@
 # ☕ Java Template Project
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://github.com/AR10Dev/java)
+[![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://github.com/AR10Dev/java)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/AR10Dev/java)
+
 A versatile Java template project to kickstart your Java development. This template provides a basic structure for building Java applications with industry-standard practices.
 
-## ✨ Features
+## Features
 
 - 📁 Clean project structure
-- 🔧 Maven/Gradle build configuration
+- 🔧 Gradle build configuration
 - 🧪 Unit testing setup
 - 💡 Sample implementations
 - 🛡️ Code quality tools configuration
 
-## 📋 Requirements
+<br>
 
-- ☕ Java JDK 11 or higher
-- 🏗️ Maven 3.6+ or Gradle 7.0+ (depending on your preference)
-- 🔄 Git
+## Getting Started
 
-## 🚀 Getting Started
+### GitHub Template
 
-### 📥 Clone the repository
+[Create a repo from this template on GitHub](https://github.com/AR10Dev/java/generate)
+
+### Clone to local
 
 ```bash
-git clone https://github.com/yourusername/java-template.git
+git clone https://github.com/AR10Dev/java.git
 cd java-template
 ```
 
-### 🛠️ Build the project
+## Checklist
 
-Using Maven:
-```bash
-mvn clean install
-```
+When you use this template, follow the checklist to update your info properly
+
+- [ ] Update project name and version in `build.gradle`
+- [ ] Rename Java package structure to match your organization
+- [ ] Update project information in `README.md`
+- [ ] Change the author name in `LICENSE`
+- [ ] Configure your preferred code style and quality tools
+- [ ] Set up CI/CD workflows if needed
+- [ ] Optional: Configure IDE-specific settings in `.idea` or `.vscode` folders
+- [ ] Enjoy coding! 😉
+
+## Requirements
+
+- ☕ Java JDK 11 or higher
+- 🏗️ Gradle 7.0+ (depending on your preference)
+- 🔄 Git
+
+## Usage
+
+### Build the project
 
 Using Gradle:
 ```bash
 ./gradlew build
 ```
 
-### ▶️ Run the application
+### Run the application
 
 ```bash
 java -jar target/app.jar
 ```
 
-## 📂 Project Structure
+### Testing
+
+Run tests using:
+
+```bash
+./gradlew test
+```
+
+## Project Structure
 
 ```
 src/
@@ -55,28 +83,6 @@ src/
 │   ├── resources/   # Test resource files
 ```
 
-## 🧪 Testing
-
-Run tests using:
-
-```bash
-mvn test
-```
-
-or
-
-```bash
-./gradlew test
-```
-
-## 👥 Contributing
-
-1. 🍴 Fork the repository
-2. 🌿 Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
-5. 📩 Open a Pull Request
-
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
