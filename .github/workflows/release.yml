@@ -39,7 +39,7 @@ jobs:
         run: ./gradlew jar
 
       - name: 📤 Upload Release Asset
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.PROJECT_NAME }}
           path: app/build/libs/${{ env.PROJECT_NAME }}-*.jar
@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: 📥 Download Release Asset
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: ${{ env.PROJECT_NAME }}
 
